@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: rgb(42, 165, 128);
+
+}
+label{
+    display:block;
+    padding-bottom:1ram;
+}
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
