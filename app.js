@@ -13,7 +13,20 @@ function submitHandler() {
     var ip=Number(intialPrice.value);
     var qty=Number(stockQuantity.value);
     var curr=Number(currentPrice.value);
+    if (qty<0){
+        outputBox.innerText="Plase enter the valid number";
+    }
+      else if (ip<0){
+        outputBox.innerText="Plase enter the valid number";
+    }
+        
+      else if (curr<0){
+        outputBox.innerText="Plase enter the valid number";
+    }
+        
+        
     calculateProfitAndLoss(ip,qty,curr);
+    
     
 }
 function calculateProfitAndLoss(initial,quantity,
