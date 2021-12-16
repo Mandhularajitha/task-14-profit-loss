@@ -24,8 +24,9 @@ function submitHandler() {
         outputBox.innerText="Plase enter the valid number";
     }
         
-        
+    else {
     calculateProfitAndLoss(ip,qty,curr);
+    }
     
     
 }
